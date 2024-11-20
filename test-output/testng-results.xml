@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-17T00:59:29 AST" name="Default suite" finished-at="2024-11-17T00:59:53 AST" duration-ms="24048">
+  <suite started-at="2024-11-21T00:29:38 AST" name="Default suite" finished-at="2024-11-21T00:29:54 AST" duration-ms="15943">
     <groups>
     </groups>
-    <test started-at="2024-11-17T00:59:29 AST" name="Default test" finished-at="2024-11-17T00:59:53 AST" duration-ms="24048">
+    <test started-at="2024-11-21T00:29:38 AST" name="Default test" finished-at="2024-11-21T00:29:54 AST" duration-ms="15943">
       <class name="almosaferproject.testcases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:almosaferproject.testcases@7e809b79]" started-at="2024-11-17T00:59:29 AST" name="setup" finished-at="2024-11-17T00:59:52 AST" duration-ms="23238" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:almosaferproject.testcases@5cc126dc]" started-at="2024-11-21T00:29:38 AST" name="setup" finished-at="2024-11-21T00:29:51 AST" duration-ms="12969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="EnglishLanguageIsDefult()[pri:1, instance:almosaferproject.testcases@7e809b79]" started-at="2024-11-17T00:59:52 AST" name="EnglishLanguageIsDefult" finished-at="2024-11-17T00:59:52 AST" duration-ms="73" status="PASS">
+        <test-method signature="EnglishLanguageIsDefult()[pri:1, instance:almosaferproject.testcases@5cc126dc]" started-at="2024-11-21T00:29:51 AST" name="EnglishLanguageIsDefult" finished-at="2024-11-21T00:29:52 AST" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnglishLanguageIsDefult -->
-        <test-method signature="SARCurrencyIsDefult()[pri:2, instance:almosaferproject.testcases@7e809b79]" started-at="2024-11-17T00:59:52 AST" name="SARCurrencyIsDefult" finished-at="2024-11-17T00:59:52 AST" duration-ms="46" status="PASS">
+        <test-method signature="SARCurrencyIsDefult()[pri:2, instance:almosaferproject.testcases@5cc126dc]" started-at="2024-11-21T00:29:52 AST" name="SARCurrencyIsDefult" finished-at="2024-11-21T00:29:52 AST" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SARCurrencyIsDefult -->
-        <test-method signature="CheckTheContactNumbers()[pri:3, instance:almosaferproject.testcases@7e809b79]" started-at="2024-11-17T00:59:52 AST" name="CheckTheContactNumbers" finished-at="2024-11-17T00:59:52 AST" duration-ms="41" status="PASS">
+        <test-method signature="CheckTheContactNumbers()[pri:3, instance:almosaferproject.testcases@5cc126dc]" started-at="2024-11-21T00:29:52 AST" name="CheckTheContactNumbers" finished-at="2024-11-21T00:29:52 AST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckTheContactNumbers -->
-        <test-method signature="checkHotelTabIsNotSelected()[pri:5, instance:almosaferproject.testcases@7e809b79]" started-at="2024-11-17T00:59:52 AST" name="checkHotelTabIsNotSelected" finished-at="2024-11-17T00:59:52 AST" duration-ms="71" status="PASS">
+        <test-method signature="checkHotelTabIsNotSelected()[pri:5, instance:almosaferproject.testcases@5cc126dc]" started-at="2024-11-21T00:29:52 AST" name="checkHotelTabIsNotSelected" finished-at="2024-11-21T00:29:52 AST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHotelTabIsNotSelected -->
-        <test-method signature="CheckDepatureDate()[pri:6, instance:almosaferproject.testcases@7e809b79]" started-at="2024-11-17T00:59:52 AST" name="CheckDepatureDate" finished-at="2024-11-17T00:59:53 AST" duration-ms="454" status="PASS">
+        <test-method signature="CheckDepatureDate()[pri:6, instance:almosaferproject.testcases@5cc126dc]" started-at="2024-11-21T00:29:52 AST" name="CheckDepatureDate" finished-at="2024-11-21T00:29:52 AST" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckDepatureDate -->
-        <test-method signature="CheckReturneDate()[pri:7, instance:almosaferproject.testcases@7e809b79]" started-at="2024-11-17T00:59:53 AST" name="CheckReturneDate" finished-at="2024-11-17T00:59:53 AST" duration-ms="49" status="PASS">
+        <test-method signature="CheckReturneDate()[pri:7, instance:almosaferproject.testcases@5cc126dc]" started-at="2024-11-21T00:29:52 AST" name="CheckReturneDate" finished-at="2024-11-21T00:29:52 AST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckReturneDate -->
+        <test-method signature="RandomlyChangeLanguage()[pri:7, instance:almosaferproject.testcases@5cc126dc]" started-at="2024-11-21T00:29:52 AST" name="RandomlyChangeLanguage" finished-at="2024-11-21T00:29:54 AST" duration-ms="2281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RandomlyChangeLanguage -->
       </class> <!-- almosaferproject.testcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
